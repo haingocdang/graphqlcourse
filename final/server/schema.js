@@ -50,7 +50,6 @@ const typeDefs = gql`
       ): Animal
       removeAnimal(id: ID!): Boolean!
   }
-
 `;
 
 module.exports = typeDefs
